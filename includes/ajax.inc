@@ -1,5 +1,6 @@
 <?php
 
+
 /**
  * @file
  * Functions for use with Drupal's Ajax framework.
