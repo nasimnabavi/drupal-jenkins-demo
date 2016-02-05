@@ -62,7 +62,11 @@ function actions_do($action_ids, $object = NULL, $context = NULL, $a1 = NULL, $a
     watchdog('actions', 'Stack overflow: too many calls to actions_do(). Aborting to prevent infinite recursion.', array(), WATCHDOG_ERROR);
     return;
   }
+
+
   $actions = array();
+
+  
   $available_actions = actions_list();
   $actions_result = array();
   if (is_array($action_ids)) {
