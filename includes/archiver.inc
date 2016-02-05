@@ -20,6 +20,8 @@ interface ArchiverInterface {
    */
   public function __construct($file_path);
 
+
+  
   /**
    * Add the specified file or directory to the archive.
    *

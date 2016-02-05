@@ -282,7 +282,7 @@ function ajax_render($commands = array()) {
 
   $extra_commands = array();
 
-  
+
   if (!empty($styles)) {
     $extra_commands[] = ajax_command_prepend('head', $styles);
   }
