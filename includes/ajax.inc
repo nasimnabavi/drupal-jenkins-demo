@@ -281,6 +281,8 @@ function ajax_render($commands = array()) {
   $scripts_header = drupal_get_js('header', $items['js'], TRUE);
 
   $extra_commands = array();
+
+  
   if (!empty($styles)) {
     $extra_commands[] = ajax_command_prepend('head', $styles);
   }
